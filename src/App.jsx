@@ -16,7 +16,12 @@ import {
 
 import { PhotoCamera } from '@material-ui/icons';
 
+import useStyles from './styles';
+
 const App = () => {
+    // armazena o estilo pra poder ser usado na div
+    const classes = useStyles();
+
     return (
         <>
             <CssBaseline />
@@ -30,8 +35,8 @@ const App = () => {
             </AppBar>
 
             <main>
-                <div>
-                    <Container maxWidth='sm' style={{ marginTop: '100px' }}>
+                <div className={classes.container}>
+                    <Container maxWidth='sm'>
                         <Typography variant='h2' align='center' color='textPrimary' gutterBottom>
                             Álbum de fotos
                         </Typography>
