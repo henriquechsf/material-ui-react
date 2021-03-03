@@ -43,7 +43,7 @@ const App = () => {
                         <Typography variant='h5' align='center' color='textSecondary' paragraph>
                             Ola a todos. Este é um álbum de fotos utilizando Material UI com React.
                         </Typography>
-                        <div>
+                        <div className={classes.buttons}>
                             <Grid container spacing={2} justify='center'>
                                 <Grid item>
                                     <Button variant='contained' color='primary'>
