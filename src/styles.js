@@ -11,6 +11,24 @@ const useStyles = makeStyles((theme) => ({
     },
     buttons: {
         marginTop: '40px'
+    },
+    cardGrid: {
+        padding: '20px 0'
+    },
+    card: {
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+    },
+    cardMedia: {
+        paddingTop: '56.25%'
+    },
+    cardContent: {
+        flexFlow: 1,
+    },
+    footer: {
+        backgroundColor: theme.palette.background.paper,
+        padding: '50px 0',
     }
 }));
 
